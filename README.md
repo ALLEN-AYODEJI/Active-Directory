@@ -30,3 +30,5 @@ Build and manage an **Active Directory (AD) environment** in a home lab to gain 
 
 ## 📷 Documentation  
 This section will be updated daily with step-by-step progress, screenshots, and explanations.  
+
+![My image](./images/my-image.png)
