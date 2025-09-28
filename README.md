@@ -31,4 +31,5 @@ Build and manage an **Active Directory (AD) environment** in a home lab to gain 
 ## 📷 Documentation  
 This section will be updated daily with step-by-step progress, screenshots, and explanations.  
 
-![My image](./images/my-image.png)
+![ChatGPT Image](https://github.com/ALLEN-AYODEJI/Active-Directory/blob/main/ChatGPT%20Image%20Sep%201%2C%202025%2C%2007_55_55%20PM.png?raw=true)
+
