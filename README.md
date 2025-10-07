@@ -33,11 +33,11 @@ Build and manage an **Active Directory (AD) environment** in a home lab to gain 
 ---
 ## Network Diagram & Lab Planning
 
-![Network Diagram](https://github.com/ALLEN-AYODEJI/Active-Directory/blob/e5c6b120eaba11e4901b720442f2016b10c421aa/Active%20Directory.jpg)
-
 ### 🗺️ Network Diagram
 This diagram was created to plan the Active Directory home lab and visualise data flows between components.
----
+
+![Network Diagram](https://github.com/ALLEN-AYODEJI/Active-Directory/blob/e5c6b120eaba11e4901b720442f2016b10c421aa/Active%20Directory.jpg)
+
 
 ### 🔧 How I created the diagram (step-by-step)
 
