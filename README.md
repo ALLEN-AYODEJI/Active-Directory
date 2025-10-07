@@ -28,8 +28,56 @@ Build and manage an **Active Directory (AD) environment** in a home lab to gain 
 
 ---
 
-## 📷 Documentation  
-This section will be updated daily with step-by-step progress, screenshots, and explanations.  
+## 📷 Documentation    
 
-![ChatGPT Image](https://github.com/ALLEN-AYODEJI/Active-Directory/blob/main/ChatGPT%20Image%20Sep%201%2C%202025%2C%2007_55_55%20PM.png?raw=true)
+---
+## Network Diagram & Lab Planning
+
+![Network Diagram](https://github.com/ALLEN-AYODEJI/Active-Directory/blob/e5c6b120eaba11e4901b720442f2016b10c421aa/Active%20Directory.jpg)
+
+### 🗺️ Network Diagram
+This diagram was created to plan the Active Directory home lab and visualise data flows between components.
+---
+
+### 🔧 How I created the diagram (step-by-step)
+
+1. **Choose a diagram tool**
+   - I used **draw.io** (diagrams.net) for quick, clean technical diagrams and easy exporting.
+
+2. **Create a new canvas and set the grid**
+   - Created a dark-grid canvas for crisp alignment.
+   - Turned on grid/snapping to align icons and connections neatly.
+
+3. **Add core infrastructure icons**
+   - Placed icons for:
+     - **Splunk Server** (SIEM)
+     - **Active Directory / Domain Controller**
+     - **Windows 10 client** (target)
+     - **Kali Linux** (attacker)
+     - **Network switch/router** and **Internet/cloud**
+   - Kept icons consistent size for visual balance.
+
+4. **Assign IP addresses and roles**
+   - Added labels with static IPs for clarity:
+     - Network: `192.168.10.0/24`
+     - Splunk Server: `192.168.10.10`
+     - Active Directory: `192.168.10.7`
+     - Windows 10 (DHCP client): (DHCP)
+     - Attacker (Kali): `192.168.10.250`
+   - Included short role notes (e.g., “Splunk Universal Forwarder”, “Sysmon”, “Atomic Red Team”).
+
+5. **Map logical connections**
+   - Drew connections to show data flow:
+     - Solid lines for network connectivity.
+     - Dotted/colored lines (green) to show log forwarding paths to Splunk.
+   - Ensured attacker node is isolated from forwarding to Splunk (attacker does not send telemetry).
+
+6. **Annotate telemetry & forwarders**
+   - Marked which machines will run **Sysmon** and **Splunk Universal Forwarder**.
+   - Indicated Splunk ingestion points and which hosts will forward logs.
+
+7. **Export and add to repo**
+---
+
+
 
