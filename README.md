@@ -79,5 +79,55 @@ This diagram was created to plan the Active Directory home lab and visualise dat
 7. **Export and add to repo**
 ---
 
+## ⚙️ Virtual Machine Installation & Active Directory Lab Setup
+
+The following VMs were installed and configured using **VirtualBox**:
+- **Windows Server 2022** – to serve as the **Active Directory Domain Controller (DC)**.
+- **Windows 10** – target client machine, joined to the domain.
+- **Kali Linux** – attacker machine for offensive simulation.
+- **Ubuntu Server 22.04** – running **Splunk**, the SIEM platform for log ingestion and analysis.
+
+---
+
+### 🖥️ Highlights
+- Step-by-step installation of **Windows 10**, **Windows Server 2022**, **Kali Linux**, and **Ubuntu Server 22.04**.  
+- Overview of **Active Directory Domain Services (AD DS)**, domain controllers, and **Kerberos authentication**.  
+- Verification of ISO downloads using **SHA-256 hashes** to ensure file integrity.  
+- Recommendation for **cloud VM providers** (Vultr, Microsoft Azure) for users on **Apple M1/M2/M3** systems due to VirtualBox limitations.  
+- Tips on managing **hardware resources** by adjusting **RAM and CPU allocations** per VM.  
+- Used **pre-built Kali Linux VirtualBox images** for faster setup.  
+- Optimized **Ubuntu Server** resources for Splunk with 8GB RAM and 100GB disk space.
+
+---
+
+### 🧩 Key Insights
+- **Building a realistic lab** requires multiple specialized VMs that mirror real-world enterprise environments — each with distinct roles for attack, defense, and monitoring.  
+- **VirtualBox** is flexible but hardware-dependent — balancing CPU and RAM ensures smooth multi-VM operation.  
+- **Verifying VM images (SHA-256)** reinforces strong security practices from the very beginning.  
+- **Cloud alternatives** like Vultr or Azure help bypass hardware or compatibility limitations for Apple Silicon users.  
+- **AD DS & Kerberos** form the backbone of secure identity management, ensuring authentication integrity in the lab.  
+- **Pre-built Kali images** save setup time and reduce configuration complexity.  
+- **Ubuntu resource allocation** reflects awareness of data-heavy operations like log ingestion and Splunk queries.  
+- **Manual installations** provide more control, help troubleshoot issues early, and ensure better understanding of each configuration stage.  
+- **Practical setup tips** such as sending `Ctrl + Alt + Delete` to VMs, identifying 64-bit vs 32-bit systems, and default Kali credentials improve workflow.  
+- **All VMs successfully installed**, forming the foundation for the next step — installing and integrating **Sysmon** and **Splunk Universal Forwarder**.
+
+---
+
+### 📸 Visual References
+> Below are screenshots showing the installed VMs and configurations.
+
+| Machine | Description | Screenshot |
+|----------|--------------|-------------|
+| Windows Server 2022 | Domain Controller setup | ![Windows Server](./assets/win-server-setup.png) |
+| Windows 10 | Target client joined to domain | ![Windows 10](./assets/win10-setup.png) |
+| Kali Linux | Attacker machine configuration | ![Kali Linux](./assets/kali-setup.png) |
+| Ubuntu Server | Splunk installed and configured | ![Ubuntu Server](./assets/ubuntu-setup.png) |
+
+*(Make sure to upload the screenshots to your repo’s `/assets` folder and update the file paths.)*
+
+---
+
+
 
 
