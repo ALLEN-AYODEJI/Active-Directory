@@ -124,8 +124,6 @@ The following VMs were installed and configured using **VirtualBox**:
 | Kali Linux | Attacker machine configuration | ![Kali Linux](./assets/kali-setup.png) |
 | Ubuntu Server | Splunk installed and configured | ![Ubuntu Server](./assets/ubuntu-setup.png) |
 
-*(Make sure to upload the screenshots to your repo’s `/assets` folder and update the file paths.)*
-
 ---
 
 
