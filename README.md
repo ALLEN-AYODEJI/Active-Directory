@@ -120,7 +120,7 @@ The following VMs were installed and configured using **VirtualBox**:
 | Machine | Description | Screenshot |
 |----------|--------------|-------------|
 | Windows Server 2022 | Domain Controller setup | ![Windows Server](./assets/win-server-setup.png) |
-| Windows 10 | Target client joined to domain | ![Windows 10](./assets/win10-setup.png) |
+| Windows 10 | Target client joined to domain | ![Windows 10](https://github.com/ALLEN-AYODEJI/Active-Directory/blob/8acee3171d919389154cdcacfcc27a41c3fdd550/Windows.png) |
 | Kali Linux | Attacker machine configuration | ![Kali Linux](./assets/kali-setup.png) |
 | Ubuntu Server | Splunk installed and configured | ![Ubuntu Server](./assets/ubuntu-setup.png) |
 
