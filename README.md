@@ -86,18 +86,7 @@ The following VMs were installed and configured using **VirtualBox**:
 - **Windows 10** – target client machine, joined to the domain.
 - **Kali Linux** – attacker machine for offensive simulation.
 - **Ubuntu Server 22.04** – running **Splunk**, the SIEM platform for log ingestion and analysis.
-
----
-
-### 🖥️ Highlights
-- Step-by-step installation of **Windows 10**, **Windows Server 2022**, **Kali Linux**, and **Ubuntu Server 22.04**.  
-- Overview of **Active Directory Domain Services (AD DS)**, domain controllers, and **Kerberos authentication**.  
-- Verification of ISO downloads using **SHA-256 hashes** to ensure file integrity.  
-- Recommendation for **cloud VM providers** (Vultr, Microsoft Azure) for users on **Apple M1/M2/M3** systems due to VirtualBox limitations.  
-- Tips on managing **hardware resources** by adjusting **RAM and CPU allocations** per VM.  
-- Used **pre-built Kali Linux VirtualBox images** for faster setup.  
-- Optimized **Ubuntu Server** resources for Splunk with 8GB RAM and 100GB disk space.
-
+  
 ---
 
 ### 🧩 Key Insights
