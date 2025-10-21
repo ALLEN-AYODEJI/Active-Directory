@@ -132,4 +132,4 @@ This setup allows both the Target-PC and Windows Server to forward event logs to
 
 - Assign VMs: Change the network adapter for all VMs to use the newly created NAT Network.
 
-![VirtualBox NAT Network Setup](image-link)
+![VirtualBox NAT Network Setup](https://github.com/ALLEN-AYODEJI/Active-Directory/blob/03774e7c0efc5619c18af1418d38fb29a3b64a59/NAT1.png)
