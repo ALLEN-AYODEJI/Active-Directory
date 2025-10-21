@@ -120,5 +120,16 @@ The following VMs were installed and configured using **VirtualBox**:
 This setup allows both the Target-PC and Windows Server to forward event logs to the Splunk Server for centralized monitoring and analysis.
 
 ---
+### ⚙️ Step-by-Step Implementation
 
+1️⃣ Configure VirtualBox Networking
 
+- Before setting up Splunk, ensure all virtual machines can communicate with each other and the internet.
+
+- Create NAT Network: In VirtualBox, go to Tools → Network → NAT Networks and create a new network (e.g., ad-project).
+
+- Set IP Range: Use the subnet 192.168.10.0/24.
+
+- Assign VMs: Change the network adapter for all VMs to use the newly created NAT Network.
+
+![VirtualBox NAT Network Setup](image-link)
