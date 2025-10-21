@@ -115,6 +115,10 @@ The following VMs were installed and configured using **VirtualBox**:
 
 ---
 
+## Installing and Configuring Splunk & Sysmon
 
+This setup allows both the Target-PC and Windows Server to forward event logs to the Splunk Server for centralized monitoring and analysis.
+
+---
 
 
